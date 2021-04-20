@@ -1,0 +1,16 @@
+# Option 1
+def any7(nums):
+    """Are any of these numbers a 7? (True/False)"""
+    if 7 in nums:
+        return True
+    else:
+        return False
+
+# Option 2
+def any7(nums):
+    """Are any of these numbers a 7? (True/False)"""
+    return True if 7 in nums else False
+
+print(any7([1, 2, 7, 4, 5]))
+# print("should be false", any7([1, 2, 4, 5]))
+
